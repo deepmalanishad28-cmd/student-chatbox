@@ -10,11 +10,13 @@ An AI-powered web chatbot for students to get instant information about college,
 
 ### 2. Login Page
 ![Login Page](login.png)
-*Already registered students can login using Roll No*
+
+*Already registered students can login using Roll No.*
 
 ### 3. Chat Interface
 ![Chat Interface](chat.png)
-*Students can ask questions and get instant answers*
+
+*Students can ask questions and get instant answers.*
 
 ## Features
 - ⚡ Instant Response 24/7
