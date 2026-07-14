@@ -5,15 +5,15 @@ An AI-powered web chatbot for students to get instant information about college,
 ## Screenshots
 
 ### 1. Register Page
-![Register Page](screenshots/register.png)
+![Register Page](register.png)
 *New students can register here with Roll No, Name, Attendance and Fees*
 
 ### 2. Login Page
-![Login Page](screenshots/login.png)
+![Login Page](login.png)
 *Already registered students can login using Roll No*
 
 ### 3. Chat Interface
-![Chat Interface](screenshots/chat.png)
+![Chat Interface](chat.png)
 *Students can ask questions and get instant answers*
 
 ## Features
