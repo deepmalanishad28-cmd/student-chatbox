@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student AI Chatbot</title>
+    <style>
+        body { font-family: Arial; background: #f0f0f0; padding: 20px; }
+        .box { background: white; padding: 20px; border-radius: 10px; max-width: 600px; margin: auto; }
+        input { width: 80%; padding: 10px; margin-right: 5px; }
+        button { padding: 10px 20px; background: #007bff; color: white; border: none; border-radius: 5px; }
+        .chat { border: 1px solid #ccc; padding: 15px; height: 300px; overflow-y: scroll; margin-bottom: 10px; background: #fafafa; }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2>Student AI Chatbot</h2>
+        
+        <div class="chat">
+            {% if question %}
+            <b>You:</b> {{ question }} <br><br>
+            <b>Bot:</b> {{ answer }}
+            {% endif %}
+        </div>
+
+        <form action="/chat" method="post">
+            <input type="text" name="question" placeholder="Ask your question..." required>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>
